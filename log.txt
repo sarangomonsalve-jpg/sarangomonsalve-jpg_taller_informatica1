@@ -9,3 +9,15 @@
 [2026-11-24 18:26:38] [INFO] JSON importado: datos.json (50 registros)
 [2026-11-24 18:26:38] [INFO] CSV importado: datos_ordenados.csv (50 registros)
 [2026-11-24 18:26:38] [ERROR] Importacion JSON fallida, no existe: noexiste.json
+[2026-11-25 19:49:18] [INFO] Estructura de carpetas verificada: data\txt, data\csv, data\json
+[2026-11-25 19:49:18] [INFO] Programa iniciado
+[2026-11-25 19:50:26] [INFO] Generados 50 registros y ordenados por FC
+[2026-11-25 19:50:33] [INFO] Conexion a MongoDB Atlas exitosa (coleccion signos_vitales)
+[2026-11-25 19:50:33] [INFO] Validacion: 50 validos, 0 invalidos
+[2026-11-25 19:50:36] [INFO] Insertados/actualizados 50 documentos en signos_vitales
+[2026-11-25 19:54:18] [INFO] Consulta promedio FC = 94.2
+[2026-11-25 19:54:18] [INFO] Consulta SpO2 < 94: 27 documentos
+[2026-11-25 19:54:18] [INFO] JSON exportado: resultados_mongo.json
+[2026-11-25 19:54:18] [INFO] Estructura de carpetas verificada: data\txt, data\csv, data\json
+[2026-11-25 19:54:18] [INFO] Archivo movido: resultados_mongo.json -> data\json\resultados_mongo.json
+[2026-11-25 19:55:08] [INFO] Consulta por ID ID-001: encontrado
